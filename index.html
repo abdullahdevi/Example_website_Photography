@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Hobby - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Lato font to the entire body */
+        body {
+            font-family: 'Lato', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom image styling for consistent appearance */
+        .main-image {
+            width: 100%;
+            height: 450px; /* Fixed height for visual consistency */
+            object-fit: cover; /* Cover the area, crop if necessary */
+            border-radius: 0.75rem; /* Rounded corners */
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        /* Adjust image height for smaller screens */
+        @media (max-width: 767px) {
+            .main-image {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-black shadow-md p-4 md:p-6 sticky top-0 z-50"> <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="sitelogo.png" alt="Site Logo" class="h-12 w-12 object-contain">
+                <h1 class="text-3xl font-bold text-white">Photography Hobby</h1> </div>
+            <nav>
+                <ul class="flex space-x-6 text-lg font-medium">
+                    <li><a href="html3.html" class="text-white hover:text-gray-400 transition duration-300 font-bold">Home</a></li> <li><a href="gallery.html" class="text-gray-300 hover:text-white transition duration-300">Gallery</a></li> <li><a href="resources.html" class="text-gray-300 hover:text-white transition duration-300">Resources</a></li> </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-12">
+        <section class="bg-white p-8 md:p-12 rounded-xl shadow-lg mb-12 text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">Welcome to My Photography Site</h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+                Discover the beauty of the world captured through my lens. This is where moments become everlasting memories.
+            </p>
+            <img src="picture1.jpg" alt="Capturing the moment" class="main-image mx-auto">
+        </section>
+
+        <section class="bg-white p-8 md:p-12 rounded-xl shadow-lg mb-12 flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/2 order-2 md:order-1 text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Me</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Hello! I'm Abdullah, and this site is a showcase of my passion for photography. I'm a dedicated photography enthusiast who loves transforming fleeting moments into timeless memories.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Welcome to my portfolio, where you can explore my work, delve into the stories behind each shot, and learn more about my ongoing journey in the captivating world of photography.
+                </p>
+            </div>
+            <div class="md:w-1/2 order-1 md:order-2">
+                <img src="picture2.jpg" alt="Abdullah's Profile Picture" class="main-image mx-auto">
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-8 rounded-t-xl mx-auto max-w-7xl px-4 mb-4">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2024 Photography Hobby. All rights reserved.</p>
+            <p class="mt-2 opacity-80">Capturing moments, creating memories.</p>
+        </div>
+    </footer>
+</body>
+</html>
