@@ -1,0 +1,1 @@
+This is a personal photography portfolio website created and hosted using GitHub Pages. It serves as a visual showcase of my photography work, presenting selected images in a clean and modern layout. The site is built using HTML, CSS, and JavaScript and is fully responsive for desktop and mobile viewing.
