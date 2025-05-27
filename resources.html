@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Hobby - Resources</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Lato font to the entire body */
+        body {
+            font-family: 'Lato', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom styling for resource list items */
+        .resource-item ul li a {
+            @apply text-gray-700 hover:text-black transition duration-300 block py-2 px-4 rounded-md;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-black shadow-md p-4 md:p-6 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="sitelogo.png" alt="Site Logo" class="h-12 w-12 object-contain">
+                <h1 class="text-3xl font-bold text-white">Photography Hobby</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6 text-lg font-medium">
+                    <li><a href="html3.html" class="text-gray-300 hover:text-white transition duration-300">Home</a></li>
+                    <li><a href="gallery.html" class="text-gray-300 hover:text-white transition duration-300">Gallery</a></li>
+                    <li><a href="resources.html" class="text-white hover:text-gray-400 transition duration-300 font-bold">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-12">
+        <section class="bg-white p-8 md:p-12 rounded-xl shadow-lg mb-12 text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">Useful Resources for Photographers</h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+                A curated list of blogs, tutorials, and external links to help you grow your photography skills.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="resource-item bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Photography Blogs</h3>
+                    <ul class="space-y-2 text-left">
+                        <li><a href="https://www.cambridgeincolour.com/tutorials.htm" target="_blank">Cambridge in Colour Tutorials</a></li>
+                        <li><a href="https://www.diyphotography.net/" target="_blank">DIY Photography</a></li>
+                        <li><a href="https://expertvagabond.com/photography/" target="_blank">Expert Vagabond Photography</a></li>
+                        <li><a href="https://www.richardbernabe.com/blog" target="_blank">Richard Bernabe Blog</a></li>
+                        <li><a href="https://www.fionakellyphotography.com/blog/" target="_blank">Fiona Kelly Photography Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="resource-item bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Online Learning Platforms</h3>
+                    <ul class="space-y-2 text-left">
+                        <li><a href="https://www.udemy.com/courses/photography/" target="_blank">Udemy Photography Courses</a></li>
+                        <li><a href="https://www.skillshare.com/browse/photography" target="_blank">Skillshare Photography</a></li>
+                        <li><a href="https://www.creativelive.com/photography" target="_blank">CreativeLive Photography</a></li>
+                    </ul>
+                </div>
+
+                <div class="resource-item bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Gear Reviews & Guides</h3>
+                    <ul class="space-y-2 text-left">
+                        <li><a href="https://www.dpreview.com/" target="_blank">DPReview</a></li>
+                        <li><a href="https://www.kenrockwell.com/" target="_blank">Ken Rockwell</a></li>
+                        <li><a href="https://www.bhphotovideo.com/explora/" target="_blank">B&H Explora Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="resource-item bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Photography Communities</h3>
+                    <ul class="space-y-2 text-left">
+                        <li><a href="https://www.flickr.com/" target="_blank">Flickr</a></li>
+                        <li><a href="https://500px.com/" target="_blank">500px</a></li>
+                        <li><a href="https://www.instagram.com/explore/tags/photography/" target="_blank">Instagram Photography Hashtags</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-8 rounded-t-xl mx-auto max-w-7xl px-4 mb-4">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2024 Photography Hobby. All rights reserved.</p>
+            <p class="mt-2 opacity-80">Capturing moments, creating memories.</p>
+        </div>
+    </footer>
+</body>
+</html>
